@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Couleur des étoiles vides -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFD700"/> <!-- Jaune doré pour les étoiles vides -->
+        </shape>
+    </item>
+
+    <!-- Couleur des étoiles partiellement remplies -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#FFC107"/> <!-- Orange pour les étoiles partiellement remplies -->
+            </shape>
+        </clip>
+    </item>
+
+    <!-- Couleur des étoiles remplies -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#FFC107"/> <!-- Jaune-orangé pour les étoiles remplies -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

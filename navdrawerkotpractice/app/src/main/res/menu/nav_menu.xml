@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- Groupement des éléments avec un comportement checkable (un seul actif à la fois) -->
+    <group
+        android:checkableBehavior="single">
+
+        <!-- Élément du menu pour partager (Share) -->
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Profil"/>
+
+        <!-- Élément du menu pour l'accueil (Home) -->
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/books_icon"
+            android:title="Collection de Livres"/>
+
+        <!-- Élément du menu pour la section 'À propos' (About Us) -->
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/favorite_book_icon"
+            android:title="Mes Livres Préférés"/>
+
+        <!-- Élément du menu pour les paramètres (Settings) -->
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/baseline_upload_file_24"
+            android:title="Demander un livre"/>
+
+
+
+
+    </group>
+
+    <!-- Élément du menu pour la déconnexion (Logout) -->
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Déconnexion"/>
+        </menu>
+    </item>
+</menu>

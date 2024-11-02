@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Library App</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="filter_options">
+        <item>Filtrer par titre</item>
+        <item>Filtrer par genre</item>
+        <item>Filtrer par auteur</item>
+    </string-array>
+    <string name="title_activity_requests_fragment">RequestsFragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="demande_info_format">%1$s %2$s a demandé le livre "%3$s"</string>
+    <string name="genre_format">Genre: %1$s</string>
+    <string name="date_format">Demandé le %1$s</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Couleur de fond jaune-orangé -->
+    <solid android:color="#FFC107" />
+
+    <!-- Bords arrondis -->
+    <corners android:radius="8dp" />
+
+    <!-- Bordure jaune-orangé -->
+    <stroke
+        android:width="2dp"
+        android:color="#FFC107" />
+</shape>

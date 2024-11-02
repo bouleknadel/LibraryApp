@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_add_book"
+            android:icon="@drawable/add_livre"
+            android:title="Ajouter un Livre" />
+
+        <item
+            android:id="@+id/nav_liste_book"
+            android:icon="@drawable/baseline_view_list_24"
+            android:title="Liste des Livres" />
+
+        <item
+            android:id="@+id/nav_requests"
+            android:icon="@drawable/baseline_upload_file_24"
+            android:title="Demandes de Livres" />
+    </group>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="Déconnexion"/>
+</menu>
