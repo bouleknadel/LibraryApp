@@ -82,9 +82,6 @@ implementation("de.hdodenhof:circleimageview:3.1.0")
 - Gradle version 7.0+
 
 
-## Vidéo Démonstrative
-Regardez une démonstration de l'application :
-https://github.com/user-attachments/assets/52068035-8ee7-4b4e-b714-7ad0d468685c
 
 
 ## Installation
@@ -101,6 +98,14 @@ git clone https://github.com/bouleknadel/LibraryApp.git
 ## Contact
 - Créé par Bouleknadel Abderrahmane
 - GitHub : [@bouleknadel](https://github.com/bouleknadel)
+
+``````
+
+## Vidéo Démonstrative
+Regardez une démonstration de l'application :
+
+https://github.com/user-attachments/assets/fa6d5fcf-9d21-4e92-a769-dc77840d15ec
+
 
 
 
