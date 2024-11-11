@@ -81,6 +81,12 @@ implementation("de.hdodenhof:circleimageview:3.1.0")
 - SDK cible : Android 13 (API 33)
 - Gradle version 7.0+
 
+
+## Vidéo Démonstrative
+Regardez une démonstration de l'application :
+https://github.com/user-attachments/assets/52068035-8ee7-4b4e-b714-7ad0d468685c
+
+
 ## Installation
 1. Clonez le repository :
 ```bash
@@ -96,7 +102,5 @@ git clone https://github.com/bouleknadel/LibraryApp.git
 - Créé par Bouleknadel Abderrahmane
 - GitHub : [@bouleknadel](https://github.com/bouleknadel)
 
-## Vidéo Démonstrative
-Regardez une démonstration de l'application :
-https://github.com/user-attachments/assets/dc37b09e-ab52-49ff-a3e1-f8cb7218fb8b
+
 
